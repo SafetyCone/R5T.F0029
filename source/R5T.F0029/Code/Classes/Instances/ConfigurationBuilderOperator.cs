@@ -7,7 +7,7 @@ namespace R5T.F0029
 	{
 		#region Infrastructure
 
-	    public static ConfigurationBuilderOperator Instance { get; } = new();
+	    public static IConfigurationBuilderOperator Instance { get; } = new ConfigurationBuilderOperator();
 
 	    private ConfigurationBuilderOperator()
 	    {
