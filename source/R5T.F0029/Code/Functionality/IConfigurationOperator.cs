@@ -49,7 +49,7 @@ namespace R5T.F0029
 		/// </summary>
 		public T Get<T>(IConfiguration configuration)
 		{
-			var sectionName = F0000.Instances.TypeOperator.GetNameOf<T>();
+			var sectionName = Instances.TypeOperator.Get_NameOf<T>();
 
 			var output = this.Get<T>(
 				configuration,
